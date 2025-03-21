@@ -1,0 +1,13 @@
+
+Que es Discovery Server?
+
+	Es un componente de Netflix OSS (Open Source Software) y es utilizado para
+la implementacion de servicios basado en Arquitectura de microservicios.
+Es una parte integral del sistema de Descubriiento de servicios de Netflix, que
+permite a los servicios en una infraestructura de MS localizar y comunicarse
+entre si de manera dinamica.
+
+ Eureka se basa en el principio de CLIENTE - SERVIDOR, donde los servicios (Clientes)
+ se registran en el Servidor de Descubrimiento (Discovery Server), y otros servicios
+ pueden consultar al servidor para encontrar la ubicacion y los detalles de los
+ servicios con los que desean comunicarse.
